@@ -12,7 +12,38 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.card {
+  width: 350px;
+  height: 680px;
+  background-image: linear-gradient(163deg, yellow 0%, #d4af37 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .card2 {
+  width: 350px;
+  height: 680px;
+  background-color: #1a1a1a;
+  border-radius:3px;
+  transition: all .2s;
+ }
+ 
+ .card3{
+  width: 320px;
+  height: 200px;
+  border-radius: 6px;
+  top: 20px;
+  left: 15px;
+  position: relative;
+ }
+ .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card:hover {
+  box-shadow: 0px 0px 30px 1px #d4af37;
+ }
 a {
   color: #ffc451;
   text-decoration: none;
@@ -22,14 +53,24 @@ a:hover {
   color: #ffd584;
   text-decoration: none;
 }
-
+@font-face{
+  font-family: myFont;
+  src: url("optidelphian-webfont.woff");
+  }
+  .eternal {
+      font-family: myFont;
+      font-size: 48px;
+      text-shadow: 4px 4px 4px #aaa;
+      color: #d4af37;
+    }
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: myFont;
+  color: #d4af37;
 }
 
 /*--------------------------------------------------------------
@@ -196,6 +237,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  
 }
 
 .navbar ul {
@@ -225,7 +267,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 25px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -271,13 +313,15 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: #d4af37;
+  color: black;
 }
 
 .navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
+  color: #151515;
 }
 
 .navbar .dropdown .dropdown ul {
@@ -416,7 +460,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("1674926284258.jpg") top center;
+  background: url("BACKGROUND.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -440,10 +484,9 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 56px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  color: #d4af37;
+  font-family: myFont;
+  letter-spacing: 15px;
 }
 
 #hero h1 span {
