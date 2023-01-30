@@ -112,7 +112,7 @@
   on('click', '.mobile-nav-toggle', function(e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('fa-bars')
-    this.classList.toggle('fa-location-dot')
+    this.classList.toggle('fa-xmark')
   })
 
   /**
@@ -137,7 +137,7 @@
         navbar.classList.remove('navbar-mobile')
         let navbarToggle = select('.mobile-nav-toggle')
         navbarToggle.classList.toggle('fa-bars')
-        navbarToggle.classList.toggle('fa-location-dot')
+        navbarToggle.classList.toggle('fa-xmark')
      }
       scrollto(this.hash)
     }
