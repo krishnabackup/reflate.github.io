@@ -132,14 +132,13 @@
     if (select(this.hash)) {
       e.preventDefault()
 
-      /* let navbar = select('#navbar')
+       let navbar = select('#navbar')
       if (navbar.classList.contains('navbar-mobile')) {
         navbar.classList.remove('navbar-mobile')
         let navbarToggle = select('.mobile-nav-toggle')
         navbarToggle.classList.toggle('fa-bars')
-        navbarToggle.classList.toggle('fa-address-book')
-      }
-      */
+        navbarToggle.classList.toggle('fa-xmark')
+     }
       scrollto(this.hash)
     }
   }, true)
