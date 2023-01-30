@@ -137,7 +137,7 @@
         navbar.classList.remove('navbar-mobile')
         let navbarToggle = select('.mobile-nav-toggle')
         navbarToggle.classList.toggle('fa-bars')
-        navbarToggle.classList.toggle('fa-xmark')
+        navbarToggle.classList.toggle('fa-arrow-up')
       }
       scrollto(this.hash)
     }
