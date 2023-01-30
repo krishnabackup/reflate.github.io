@@ -395,7 +395,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: ;
+  background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -411,7 +411,7 @@ h6 {
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #151515;
-  background-color: #ffc451;
+  background-color: #d4af37;
 }
 
 .navbar-mobile .getstarted,
@@ -447,7 +447,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: #d4af37;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
